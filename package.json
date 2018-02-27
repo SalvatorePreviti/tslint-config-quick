@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-quick",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "TSLint Quick Shareable Configuration",
   "main": "index.js",
   "scripts": {
