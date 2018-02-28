@@ -51,12 +51,14 @@
     "forin": false,
     "guard-for-in": false,
     "handle-callback-err": true,
+    "import-name": false,
     "import-spacing": true,
     "indent": [
       true,
       "spaces",
       2
     ],
+    "insecure-random": false,
     "interface-name": false,
     "jsdoc-format": true,
     "label-position": true,
@@ -92,6 +94,7 @@
       }
     ],
     "missing-jsdoc": false,
+    "mocha-no-side-effect-code": false,
     "new-parens": true,
     "newline-before-return": false,
     "no-accessor-recursion": true,
@@ -127,6 +130,7 @@
     "no-extra-boolean-cast": true,
     "no-extra-semi": true,
     "no-for-in-array": false,
+    "no-function-expression": false,
     "no-import-side-effect": false,
     "no-inner-declarations": true,
     "no-internal-module": false,
@@ -146,6 +150,7 @@
     "no-reference": false,
     "no-reference-import": false,
     "no-regex-spaces": true,
+    "no-relative-imports": false,
     "no-require-imports": false,
     "no-return-undefined": true,
     "no-shadowed-variable": true,
@@ -221,6 +226,7 @@
     "prefer-object-spread": false,
     "prefer-switch": false,
     "prefer-template": true,
+    "prefer-type-cast": false,
     "promise-function-async": false,
     "quotemark": [
       true,
@@ -397,12 +403,14 @@
     ],
     "guard-for-in": false,
     "handle-callback-err": true,
+    "import-name": false,
     "import-spacing": true,
     "indent": [
       true,
       "spaces",
       2
     ],
+    "insecure-random": false,
     "interface-name": false,
     "jsdoc-format": true,
     "label-position": true,
@@ -440,6 +448,7 @@
       }
     ],
     "missing-jsdoc": false,
+    "mocha-no-side-effect-code": false,
     "new-parens": true,
     "newline-before-return": false,
     "no-accessor-recursion": true,
@@ -479,6 +488,7 @@
     "no-for-in": true,
     "no-for-in-array": false,
     "no-function-constructor-with-string-args": true,
+    "no-function-expression": false,
     "no-import-side-effect": false,
     "no-increment-decrement": true,
     "no-inferrable-types": [
@@ -506,6 +516,7 @@
     "no-reference": false,
     "no-reference-import": false,
     "no-regex-spaces": true,
+    "no-relative-imports": false,
     "no-require-imports": false,
     "no-return-undefined": true,
     "no-shadowed-variable": true,
@@ -592,6 +603,7 @@
     "prefer-object-spread": false,
     "prefer-switch": false,
     "prefer-template": true,
+    "prefer-type-cast": false,
     "promise-function-async": false,
     "promise-must-complete": true,
     "quotemark": [
