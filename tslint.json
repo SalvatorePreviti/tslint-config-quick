@@ -391,16 +391,7 @@
       "nested-if-else"
     ],
     "forin": false,
-    "function-name": [
-      true,
-      {
-        "function-regex": {},
-        "method-regex": {},
-        "private-method-regex": {},
-        "protected-method-regex": {},
-        "static-method-regex": {}
-      }
-    ],
+    "function-name": true,
     "guard-for-in": false,
     "handle-callback-err": true,
     "import-name": false,
