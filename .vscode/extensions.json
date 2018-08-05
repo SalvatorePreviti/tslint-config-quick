@@ -1,8 +1,11 @@
 {
-    "recommendations": [
-      "eg2.tslint",
-      "dbaeumer.vscode-eslint",
-      "robertohuertasm.vscode-icons",
-      "pflannery.vscode-versionlens"
-    ]
-  }
+  "recommendations": [
+    "eg2.tslint",
+    "dbaeumer.vscode-eslint",
+    "robertohuertasm.vscode-icons",
+    "pflannery.vscode-versionlens",
+    "shinnn.stylelint",
+    "esbenp.prettier-vscode",
+    "clinyong.vscode-css-modules"
+  ]
+}

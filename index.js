@@ -1,3 +1,1 @@
-const tslintRules = require('./tslint.json')
-
-module.exports = tslintRules
+module.exports = require('./tslint.json')
