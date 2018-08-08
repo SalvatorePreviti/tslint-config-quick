@@ -1,6 +1,6 @@
 {
   "defaultSeverity": "warn",
-  "extends": ["tslint:recommended", "tslint-eslint-rules", "tslint-microsoft-contrib"],
+  "extends": ["tslint:recommended", "tslint-eslint-rules", "tslint-microsoft-contrib", "tslint-react"],
   "jsRules": {
     "array-bracket-spacing": [true, "never"],
     "array-type": false,
