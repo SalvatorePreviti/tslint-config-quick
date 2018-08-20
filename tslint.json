@@ -1,6 +1,54 @@
 {
   "extends": ["tslint:latest", "tslint-microsoft-contrib", "tslint-config-prettier", "tslint-react"],
   "rules": {
+    "member-ordering": [
+      false,
+      {
+        "order": [
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "public-static-method",
+          "protected-static-method",
+          "private-static-method",
+          "public-constructor",
+          "protected-constructor",
+          "private-constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "callable-types": false,
+    "completed-docs": false,
+    "cyclomatic-complexity": false,
+    "max-func-body-length": false,
+    "member-access": [true, "check-accessor", "check-constructor"],
+    "no-empty": false,
+    "no-constant-condition": true,
+    "no-empty-interface": false,
+    "no-parameter-properties": false,
+    "no-shadowed-variable": [
+      true,
+      {
+        "class": true,
+        "enum": true,
+        "function": false,
+        "interface": false,
+        "namespace": true,
+        "typeAlias": false,
+        "typeParameter": false
+      }
+    ],
+    "no-unnecessary-class": false,
+    "no-unnecessary-field-initialization": false,
+    "no-unnecessary-initializer": true,
+    "no-use-before-declare": true,
+    "ordered-imports": false,
     "missing-jsdoc": false,
     "export-name": false,
     "function-name": false,
