@@ -88,6 +88,6 @@
     "no-import-side-effect": false
   },
   "linterOptions": {
-    "exclude": ["**/node_modules", "**/build", "**/dist"]
+    "exclude": ["**/node_modules"]
   }
 }
