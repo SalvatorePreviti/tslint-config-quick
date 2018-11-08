@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-quick",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "TSLint Quick Shareable Configuration",
   "main": "index.js",
   "repository": {
@@ -10,16 +10,6 @@
   "keywords": [
     "TSLint",
     "Quick"
-  ],
-  "files": [
-    "dist/index.js",
-    "dist/tslint.json",
-    "index.js",
-    "tslint.json",
-    ".prettierrc",
-    ".editorconfig",
-    "README.md",
-    "LICENSE"
   ],
   "author": "Salvatore Previti",
   "license": "MIT",
