@@ -1,8 +1,5 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "alwaysStrict": false,
-    "downlevelIteration": false,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
@@ -11,21 +8,18 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "newLine": "LF",
-    "noEmit": true,
     "noEmitHelpers": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
-    "noImplicitUseStrict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "preserveWatchOutput": true,
     "resolveJsonModule": true,
     "skipDefaultLibCheck": true,
     "strict": true,
     "suppressImplicitAnyIndexErrors": true,
     "target": "esnext"
   },
-  "exclude": ["**/.*", "**/node_modules", "**/build", "**/dist"],
+  "exclude": ["**/.*", "**/node_modules", "**/build", "**/dist", "**/out"],
   "typeAcquisition": {
     "enable": true
   }
